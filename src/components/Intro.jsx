@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import Elonmusk from "../img/elonmusk.png";
+import Man from "../img/man.png";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -84,8 +85,9 @@ const Intro = () => {
         </Info>
       </Left>
       <Right>
-        <Image src={Elonmusk} />
+        <Image src={Man} />
       </Right>
+      <AnimatedShapes />
     </Container>
   );
 };
