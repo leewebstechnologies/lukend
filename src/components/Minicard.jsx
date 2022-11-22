@@ -1,10 +1,14 @@
 import styled from "styled-components";
+import Search from "../img/search.png";
 
 const Container = styled.div`
   width: 100%;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 17px -11px rgba(0, 0, 0, 0.58);
 `;
 
 const Image = styled.img`
@@ -12,18 +16,15 @@ const Image = styled.img`
 `;
 
 const Text = styled.span`
-    
-`
+  margin-top: 10px;
+  text-align: center;
+`;
+
 const Minicard = () => {
   return (
     <Container>
-      <Image />
-      <Text>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe autem
-        sit ullam quia velit perspiciatis, ipsum ducimus, fuga temporibus at
-        accusamus ratione voluptas cupiditate? Doloremque maiores quisquam rerum
-        quasi repellendus.
-      </Text>
+      <Image src={Search} />
+      <Text>Lorem, ipsum dolor sit amet consectetur</Text>
     </Container>
   );
 };
