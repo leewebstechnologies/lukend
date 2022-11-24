@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 import Feature from "./components/Feature";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
+import Price from "./components/Price";
 import Services from "./components/Services";
 
 const Container = styled.div`
@@ -52,6 +53,9 @@ function App() {
       <Container>
         <Services />
         <ServiceShape />
+      </Container>
+      <Container>
+        <Price />
       </Container>
     </>
   );
