@@ -11,9 +11,9 @@ const Container = styled.div`
 const Price = () => {
   return (
     <Container>
-      <PriceCard />
-      <PriceCard />
-      <PriceCard />
+      <PriceCard price="10" type="Basic" />
+      <PriceCard price="20" type="Premium" />
+      <PriceCard price="30" type="Advanced" />
     </Container>
   );
 };
