@@ -42,7 +42,6 @@ const Wrapper = styled.div`
 
   @media only screen and (max-width: 480px) {
     padding: 20px;
-    width: 100%;
   }
 `;
 
@@ -86,8 +85,18 @@ const Video = styled.video`
   left: 0;
   margin: auto;
 `;
+
+const Modal = styled.div`
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+`;
 const Services = () => {
   const [open, setOpen] = useState(false);
+  const smallScreen = window.screen.width <= 480 ? true : false;
   return (
     <Container>
       <Left>
