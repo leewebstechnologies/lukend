@@ -4,10 +4,19 @@ import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
 `;
 
 const Left = styled.div`
   width: 50%;
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const Right = styled.div`
@@ -22,29 +31,29 @@ const Image = styled.img`
 `;
 
 const Title = styled.span`
-    font-size: 70px;
+  font-size: 70px;
 `;
 const SubTitle = styled.span`
-    font-size: 24px;
-    font-size: italic;
-    color: #333;
-    margin-top: 30px;
+  font-size: 24px;
+  font-size: italic;
+  color: #333;
+  margin-top: 30px;
 `;
 const Desc = styled.p`
-    font-size: 20px;
-    color: #777;
-    margin-top: 30px;
+  font-size: 20px;
+  color: #777;
+  margin-top: 30px;
 `;
 const Button = styled.button`
-    width: 150px;
-    border: none;
-    padding: 15px 20px;
-    background-color: darkblue;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    cursor: pointer;
+  width: 150px;
+  border: none;
+  padding: 15px 20px;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
 `;
 
 const Feature = () => {
