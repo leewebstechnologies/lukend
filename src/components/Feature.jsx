@@ -24,6 +24,10 @@ const Right = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const Image = styled.img`
@@ -32,6 +36,10 @@ const Image = styled.img`
 
 const Title = styled.span`
   font-size: 70px;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 50px;
+  }
 `;
 const SubTitle = styled.span`
   font-size: 24px;
