@@ -135,7 +135,6 @@ const Text = styled.span`
   }
 `;
 
-
 const Contact = () => {
   return (
     <Container>
@@ -160,7 +159,7 @@ const Contact = () => {
         <AddressContainer>
           <AddressItem>
             <Icon src={Map} />
-            <Text>123, Park Avenue, New York, USA.</Text>
+            <Text>Lagos, Nigeria.</Text>
           </AddressItem>
           <AddressItem>
             <Icon src={Phone} />

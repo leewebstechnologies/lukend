@@ -26,14 +26,13 @@ const Text = styled.span`
   @media only screen and (max-width: 480px) {
     font-size: 14px;
   }
-
 `;
 
 const Minicard = () => {
   return (
     <Container>
       <Image src={Search} />
-      <Text>Lorem, ipsum dolor sit amet consectetur</Text>
+      <Text>We offer services to all range of clients.</Text>
     </Container>
   );
 };

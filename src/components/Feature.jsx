@@ -79,7 +79,6 @@ const Feature = () => {
           </Title>
           <SubTitle>We know that good design means good business.</SubTitle>
           <Desc>
-            {" "}
             We help our clients succeed by creating brand identities, digital
             experiences, and print materials that communicate clearly, achieve
             marketing goals, and look fantastic.

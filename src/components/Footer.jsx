@@ -29,7 +29,6 @@ const ListItem = styled.li`
     margin-right: 10px;
     font-size: 14px;
   }
-
 `;
 const Copyright = styled.span`
   @media only screen and (max-width: 480px) {
@@ -47,7 +46,7 @@ const Footer = () => {
           <ListItem>API</ListItem>
           <ListItem>Community</ListItem>
         </List>
-        <Copyright>Lama Dev Ⓒ</Copyright>
+        <Copyright>Leewebs Ⓒ</Copyright>
       </Wrapper>
     </Container>
   );
